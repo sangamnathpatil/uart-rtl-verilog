@@ -18,11 +18,13 @@ This project implements a UART communication system supporting:
 
 ## Architecture
 
-[architecture image]
+<img width="2760" height="1920" alt="uart_architecture_diagram" src="https://github.com/user-attachments/assets/6f9845b2-70f7-4482-8105-b2af875b9bb3" />
+
 
 ## UART Frame Format
 
-[uart frame image]
+![Uploading uart_frame_structure.png…]()
+
 
 ## Design Modules
 
@@ -58,4 +60,26 @@ Simulation waveforms were analyzed using GTKWave.
 
 ## Repository Structure
 
-...
+uart-rtl-verilog/
+│
+├── README.md
+│
+├── rtl/
+│   ├── uart_tx.v
+│   ├── uart_rx.v
+│   └── uart_top.v
+│
+├── tb/
+│   ├── uart_tx_tb.v
+│   ├── uart_rx_tb.v
+│   └── uart_top_tb.v
+│
+├── docs/
+│   ├── architecture.png
+│   ├── uart_frame.png
+│   ├── tx_fsm.png
+│   ├── rx_fsm.png
+│   └── waveform.png
+│
+└── simulation/
+    └── simulation_output.txt
