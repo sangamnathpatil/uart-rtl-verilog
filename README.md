@@ -23,7 +23,7 @@ This project implements a UART communication system supporting:
 
 ## UART Frame Format
 
-![Uploading uart_frame_structure.png…]()
+<img width="2720" height="2043" alt="uart_frame_structure" src="https://github.com/user-attachments/assets/dd514685-cadb-4f3c-925b-9f91a6f4f6b6" />
 
 
 ## Design Modules
