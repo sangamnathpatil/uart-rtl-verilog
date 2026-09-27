@@ -58,7 +58,7 @@ Simulation waveforms were analyzed using GTKWave.
 - VS Code
 - Git / GitHub
 
-## Repository Structure
+## Repository Structure 
 
 uart-rtl-verilog/
 │
